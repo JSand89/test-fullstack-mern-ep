@@ -9,8 +9,9 @@ npm run start
 en otra terminal
 
 cd app
+npm i
 npm start
 
 ### faltantes
 
-AUn falta el componente que muestra el especifico por las rutas de react
+Los ToDo que estan en los comentarios dentrodel codigo 
