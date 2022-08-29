@@ -10,7 +10,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<Songs />} />
-                <Route path="/song/:song" element={<Song/>}></Route>
+                <Route path="/song" element={<Song/>}></Route>
             </Routes>
         </Router>
     );
