@@ -97,7 +97,7 @@ function Songs() {
                                 <tr key={index}>
                                     <td>{index + 1 + next}</td>
                                     <td>
-                                        <Link to ="/song"
+                                        <Link to ={`/song?song=${song.name}`}
                                             >
                                             {song.name}
                                         </Link>
